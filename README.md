@@ -6,8 +6,12 @@ simple talent system.
 
 ## Requirements
 
-- Python 3.10+
-- Pygame 2.5+
+- Python 3.10–3.13 (validated on Windows, macOS, and Linux)
+- pygame 2.6.1 (installed via `requirements.txt`)
+- Platform prerequisites:
+  - **Windows**: Visual C++ 2015–2022 redistributable (bundled with recent Visual Studio Build Tools).
+  - **Linux**: SDL2, SDL2_image, SDL2_mixer, and SDL2_ttf development packages from your distribution.
+  - **macOS**: SDL2 libraries via Homebrew (`brew install sdl2 sdl2_image sdl2_mixer sdl2_ttf`).
 
 Install dependencies with:
 
